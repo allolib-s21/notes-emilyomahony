@@ -1,7 +1,13 @@
 # Notes from Emily O'Mahony
 
-[Python script for generating a chord progression](https://gist.github.com/emilyomahony/2a59a65ecd2efbdc75317a2705ba73fc)
+### Chord progression generation
+This is a way to create SineEnv chord progressions with fixed time intervals in each bar and various voices. The voicings are hard-coded as is. 
 
+[Python script for generating a chord progression](src/chords.py)
+
+
+
+### Looping
 Currently I'm working on a way to loop what's being played in the Allolib playground. Ideally this would be similar to an effects pedal, where the user could toggle on and off the recording and choose what gets looped. The time of the loop would also be variable. 
 
-A very basic version of this is provided in the `src` directory. 
+[Basic version of looping](src/my_sine.cpp)
